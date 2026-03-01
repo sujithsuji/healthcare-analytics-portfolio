@@ -1,6 +1,54 @@
 # 🏥 Healthcare Outcomes & Operational Efficiency Analytics
 
-A data analytics project focused on understanding what drives hospital readmissions, prolonged stays, and operational inefficiencies across patient populations — using real clinical and administrative data from 130 US hospitals.
+> Analyzing 71,518 patient records from 130 US hospitals to uncover what drives readmissions, prolonged stays, and operational inefficiencies — using Python, SQL, and Power BI.
+
+---
+
+## 🖥️ Dashboard Preview
+
+### Readmission Rate by Age Group
+![Readmission by Age](readmission_by_age.png)
+
+### Distribution of Length of Stay
+![Length of Stay](length_of_stay.png)
+
+### Top 10 Diagnoses by Readmission Rate
+![Top Diagnoses](top_diagnoses_readmission.png)
+
+### Medications vs Length of Stay
+![Medications vs LOS](medications_vs_los.png)
+
+### Average Length of Stay by Age Cohort
+![Avg LOS by Age](avg_los_by_age.png)
+
+---
+
+## 📊 Key Results At A Glance
+
+| Metric | Result |
+|--------|--------|
+| 👥 Total Patients Analyzed | 71,518 |
+| 🔄 Overall Readmission Rate | 39.9% |
+| 🛏️ Average Length of Stay | 4.29 days |
+| 💊 Average Medications | 15.71 per patient |
+| ⚠️ Highest Risk Age Group | 70–80 years (43.9% readmission) |
+| 🧪 Hypothesis Tests | 2 — both statistically significant |
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | How I Used It |
+|------|--------------|
+| 🐍 Python | Data cleaning, EDA, cohort analysis, hypothesis testing |
+| 🐼 Pandas | Data manipulation and transformation |
+| 🔢 NumPy | Numerical operations |
+| 📐 SciPy | Statistical hypothesis testing (t-tests) |
+| 📊 Matplotlib & Seaborn | Data visualization |
+| 🗄️ SQL (SQLite via Python) | Data modeling and querying |
+| 💼 Power BI | Interactive business intelligence dashboard |
+| ☁️ Google Colab | Cloud-based development environment |
+| 🐙 GitHub | Version control and portfolio hosting |
 
 ---
 
@@ -12,7 +60,7 @@ This project gave me the opportunity to work with a large, messy, real-world hea
 
 ---
 
-## 📊 The Data
+## 📂 The Data
 
 **Source:** Diabetes 130-US Hospitals (1999–2008) via UCI Machine Learning Repository / Kaggle
 
@@ -68,8 +116,6 @@ I built two dashboards to make the findings accessible:
 
 ## 💡 Key Findings
 
-After spending time in this dataset, a few things stood out clearly:
-
 **📈 Readmission Risk Increases with Age**
 Patients in the 70–80 age group had the highest readmission rate at 43.9%, nearly 2.5x the rate of patients under 10. This points to a clear need for targeted post-discharge care management for elderly patients.
 
@@ -84,22 +130,6 @@ The length of stay distribution was heavily right-skewed — the majority of pat
 
 **⚠️ Certain Diagnosis Codes Show 100% Readmission**
 Some rare diagnosis codes (V67, V60, 990 etc.) showed 100% readmission rates, suggesting these represent specific patient pathways that may warrant dedicated care protocols.
-
----
-
-## 🛠️ Tools & Technologies
-
-| Tool | How I Used It |
-|------|--------------|
-| 🐍 Python | Data cleaning, EDA, cohort analysis, hypothesis testing |
-| 🐼 Pandas | Data manipulation and transformation |
-| 🔢 NumPy | Numerical operations |
-| 📐 SciPy | Statistical hypothesis testing (t-tests) |
-| 📊 Matplotlib & Seaborn | Data visualization |
-| 🗄️ SQL (SQLite via Python) | Data modeling and querying |
-| 💼 Power BI | Interactive business intelligence dashboard |
-| ☁️ Google Colab | Cloud-based development environment |
-| 🐙 GitHub | Version control and portfolio hosting |
 
 ---
 
@@ -122,25 +152,6 @@ healthcare-analytics-portfolio/
     ├── medications_vs_los.png
     └── avg_los_by_age.png
 ```
-
----
-
-## 🖥️ Dashboard Preview
-
-### Readmission Rate by Age Group
-![Readmission by Age](readmission_by_age.png)
-
-### Distribution of Length of Stay
-![Length of Stay](length_of_stay.png)
-
-### Top 10 Diagnoses by Readmission Rate
-![Top Diagnoses](top_diagnoses_readmission.png)
-
-### Medications vs Length of Stay
-![Medications vs LOS](medications_vs_los.png)
-
-### Average Length of Stay by Age Cohort
-![Avg LOS by Age](avg_los_by_age.png)
 
 ---
 
