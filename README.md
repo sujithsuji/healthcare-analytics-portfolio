@@ -1,6 +1,6 @@
 # 🏥 Healthcare Outcomes & Operational Efficiency Analytics
 
-> Analyzing 71,518 patient records from 130 US hospitals to uncover what drives readmissions, prolonged stays, and operational inefficiencies — using Python, SQL, and Power BI.
+Analyzing 71,518 patient records from 130 US hospitals to uncover what drives readmissions, prolonged stays, and operational inefficiencies — using Python, SQL, and Power BI.
 
 
 ## 🖥️ Dashboard Preview
