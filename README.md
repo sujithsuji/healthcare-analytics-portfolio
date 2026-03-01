@@ -42,8 +42,3 @@ Records: 71,518 unique patient encounters
 ![Medications vs LOS](medications_vs_los.png)
 ![Avg LOS by Age](avg_los_by_age.png)
 ```
-
-5. Scroll down
-6. In commit box type:
-```
-Update README
